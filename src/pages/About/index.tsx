@@ -81,7 +81,7 @@ const About = () => {
             <div ref={licenseRef} className={style.lissenzia}>
                 <h2>Lisenziya</h2>
                 <div className={style.lisensiaImages}>
-                    {[...Array(3)].map((_, index) => (
+                    {[...Array(3)].map((_) => (
                         <figure>
                             <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
                         </figure>
@@ -92,7 +92,7 @@ const About = () => {
             <div ref={isoRef} className={style.lissenzia}>
                 <h2>İSO sertifikatları</h2>
                 <div className={style.lisensiaImages}>
-                    {[...Array(3)].map((_, index) => (
+                    {[...Array(3)].map((_) => (
                         <figure>
                             <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
                         </figure>
@@ -103,7 +103,7 @@ const About = () => {
             <div ref={recommendationRef} className={style.lissenzia}>
                 <h2>Tövsiyyə məktubları</h2>
                 <div className={style.lisensiaImages}>
-                    {[...Array(3)].map((_, index) => (
+                    {[...Array(3)].map((_) => (
                         <figure>
                             <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
                         </figure>

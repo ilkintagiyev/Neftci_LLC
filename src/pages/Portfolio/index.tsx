@@ -11,7 +11,7 @@ const Portfolio = () => {
                 </h2>
 
                 <div className={style.portfolioImages}>
-                    {[...Array(3)].map((_, index) => (
+                    {[...Array(3)].map((_) => (
                         <figure>
                             <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
                         </figure>
@@ -35,7 +35,7 @@ const Portfolio = () => {
 
             <div className={style.portfolio}>
                 <div className={style.portfolioImages}>
-                    {[...Array(1)].map((_, index) => (
+                    {[...Array(1)].map((_) => (
                         <figure>
                             <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
                         </figure>

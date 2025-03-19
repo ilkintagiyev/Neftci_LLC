@@ -94,7 +94,7 @@ const Home = () => {
                     </div>
 
                     <div className={style.projectImages}>
-                        {[...Array(3)].map((_, index) => (
+                        {[...Array(3)].map((_) => (
                             <figure>
                                 <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
                             </figure>

@@ -38,7 +38,7 @@ const Equipments = () => {
                 </div>
 
                 <div ref={imageListRef} className={style.elements}>
-                    {[...Array(15)].map((_, index) => (
+                    {[...Array(15)].map((_) => (
                         <figure>
                             <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
                         </figure>
