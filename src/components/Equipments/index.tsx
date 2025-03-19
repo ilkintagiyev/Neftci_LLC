@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import  { useRef } from 'react'
 import style from './index.module.scss';
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom';

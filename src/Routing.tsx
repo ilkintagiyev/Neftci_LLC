@@ -1,4 +1,3 @@
-import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import { ABOUT_PATH, CONTACT_PATH, EQUIPMENT_PATH, PORTFOLIO_PATH, PROJECT_PATH, SERVICES_PATH } from './utils/routes'

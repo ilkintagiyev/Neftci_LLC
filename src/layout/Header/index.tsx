@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import style from './index.module.scss';
 import Logo from "../../assets/Logo.png";
 import { IMenuData, menuData, optionsData } from './utils';
-import { To, useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Select } from 'antd';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useDispatch } from 'react-redux';

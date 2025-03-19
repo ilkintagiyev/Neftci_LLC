@@ -1,4 +1,3 @@
-import React, { useRef, useState } from 'react'
 import style from './index.module.scss';
 import Main from '../../layout/Main';
 import Hero from "../../assets/Hero.png";
@@ -6,6 +5,7 @@ import { FaArrowRight, FaArrowLeft } from "react-icons/fa6";
 import Partners from '../../components/Partners';
 import Equipments from '../../components/Equipments';
 import { useNavigate } from 'react-router-dom';
+import { PROJECT_PATH } from '../../utils/routes';
 
 const Home = () => {
     const navigate = useNavigate();

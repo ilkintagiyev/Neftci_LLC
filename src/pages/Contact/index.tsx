@@ -1,4 +1,3 @@
-import React from 'react'
 import Main from '../../layout/Main'
 import LogoNeft from "../../assets/LogoNeft.png";
 import style from "./index.module.scss";

@@ -1,11 +1,5 @@
-import React from 'react'
 import style from './index.module.scss';
 import Logo from "../../assets/Logo.png";
-import { FaFacebookF } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa6";
-import { TiSocialLinkedin } from "react-icons/ti";
-import { BsYoutube } from "react-icons/bs";
-import { AiOutlineClose } from "react-icons/ai";
 import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon, YoutubeIcon } from './utils';
 
 const LocationIcon = () => {

@@ -1,7 +1,5 @@
-import React from 'react'
 import style from './index.module.scss';
 import Main from '../../layout/Main';
-
 
 export const data = [
   {

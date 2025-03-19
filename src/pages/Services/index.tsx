@@ -1,4 +1,3 @@
-import React from 'react'
 import style from "./index.module.scss";
 import { datas } from './utils';
 import Main from '../../layout/Main';

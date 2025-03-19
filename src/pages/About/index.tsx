@@ -1,8 +1,7 @@
-import React, { useEffect, useImperativeHandle, useRef } from 'react'
+import { useEffect,  useRef } from 'react'
 import Main from '../../layout/Main';
 import style from './index.module.scss';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState } from '@reduxjs/toolkit/query';
 import { setScrollTarget } from '../../store/global';
 
 const About = () => {
