@@ -7,7 +7,6 @@
     }
 }
 
-
 .element{
     border-color: #25a2fe;
     width: 85%;
@@ -19,10 +18,14 @@
     text-align: center;
     font-size: 32px;
     font-weight: normal;
+    @media (max-width : 512px){
+       font-size: 20px;
+    }
 }
 
 .portfolioImages{
     width: 40%;
+    margin-top: 40px;
     @media (max-width : 512px){
         width: 100%;
         margin-top: 24px;

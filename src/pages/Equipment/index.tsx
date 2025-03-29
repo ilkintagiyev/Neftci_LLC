@@ -92,7 +92,7 @@ const Equipment = () => {
         <h2>Avadanlıqlar</h2>
 
         <div className={style.equipmentImages}>
-          {[...Array(4)].map((_) => (
+          {[...Array(6)].map((_) => (
             <figure>
               <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zwhySGCEBxRRFYIcQgvOLOpRGqrT3d7Qng&s"} />
             </figure>

@@ -15,6 +15,10 @@
 .partnersTitleValue {
     font-size: 32px;
     font-weight: normal;
+
+    @media (max-width : 512px){
+        font-size: 20px;
+    }
 }
 
 .partnersArrow div {
