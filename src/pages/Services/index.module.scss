@@ -21,6 +21,7 @@
     p {
         width: 45%;
         font-size: 13px;
+        color: #3A3A3A;
 
         @media (max-width : 512px) {
             font-size: 11px;
@@ -51,7 +52,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 36px;
-    height: 1100px;
+    height: 1150px;
 
     @media (max-width : 512px) {
         height: auto;
@@ -60,17 +61,20 @@
 
 
 .col {
-    width: 35%;
+    width: 30%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
-
     h2 {
         color: #296a9f;
         font-size: 24px;
         font-weight: normal;
         width: 45%;
+
+        @media (max-width : 512px) {
+           font-size: 16px;
+           width: 15%;
+        }
     }
 
     @media (max-width : 512px) {
@@ -79,8 +83,8 @@
         margin-bottom: 40px;
     }
 
-    p {
-        font-size: 16px;
-        width: 45%;
+    span {
+        color: #3A3A3A;
+        font-size: 14px;
     }
 }

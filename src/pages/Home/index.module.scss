@@ -67,6 +67,10 @@
 .sectionInfo p {
     font-size: 16px;
     font-weight: normal;
+
+    @media (max-width : 512px) {
+       margin-top: 20px;
+    }
 }
 
 .sectionInfo {
@@ -133,10 +137,11 @@
 .serviceTitle h2 {
     font-size: 32px;
     font-weight: normal;
+
     @media (max-width : 512px) {
         font-size: 20px;
         margin-left: -45px;
-     }
+    }
 }
 
 .servicesArrow {
@@ -152,7 +157,7 @@
     justify-content: center;
 
     @media (max-width : 512px) {
-       display: none;
+        display: none;
     }
 
     &:first-child {
@@ -179,17 +184,15 @@
     }
 
     ul {
-        width: 30%;
+        width: 28%;
 
         @media (max-width : 512px) {
             width: 90%;
             margin: auto;
         }
 
-        li{
-            @media (max-width : 512px) {
-               margin-top: 10px;
-            }
+        li {
+            margin-top: 10px;
         }
     }
 }
@@ -250,8 +253,8 @@
     margin-bottom: 15px;
 
     @media (max-width : 512px) {
-       width: 95%;
-       height: 280px;
+        width: 95%;
+        height: 280px;
     }
 
     img {

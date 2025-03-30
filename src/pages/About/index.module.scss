@@ -71,16 +71,18 @@
 // content
 
 .content {
-    width: 95%;
+    width: 90%;
     margin: auto;
     margin-top: 70px;
-
-
+    @media (max-width : 512px) {
+       margin-left: 20px;
+    }
 }
 
 .content p {
     font-size: 14px;
     margin-top: 30px;
+    line-height: 24px;
 
     @media (max-width : 512px) {
         margin-top: 24px;
@@ -91,8 +93,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     @media (max-width : 512px) {
+        margin-left: 20px;
         display: flex;
         flex-direction: column;
     }
@@ -123,6 +125,9 @@
 .contentWorks ul li {
     margin-bottom: 10px;
     color: #494949;
+    @media (max-width : 512px) {
+       font-size: 13px;
+    }
 }
 
 .contentActivities {
@@ -142,6 +147,9 @@
 .contentActivities ul li {
     color: #494949;
     margin-bottom: 10px;
+    @media (max-width : 512px) {
+        font-size: 13px;
+     }
 }
 
 // lissenzia
@@ -176,7 +184,7 @@
 
 .lisensiaImages figure {
     width: 30%;
-    height: 415px;
+    height: 305px;
     margin-bottom: 20px;
 
     @media (max-width : 512px) {

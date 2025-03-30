@@ -2,12 +2,20 @@
     width: 86%;
     margin: auto;
     margin-top: 75px;
+
+    @media (max-width : 512px) {
+        margin-top: 20px;
+    }
 }
 
 .tableEquipment h2 {
     font-size: 32px;
     font-weight: normal;
     text-align: center;
+
+    @media (max-width : 512px) {
+        font-size: 20px;
+    }
 }
 
 
@@ -27,7 +35,7 @@
     margin-top: 5px;
 }
 
-.table tbody tr td{
+.table tbody tr td {
     font-weight: normal;
     padding: 10px;
     border-bottom: 1px solid #bbbbbb;
@@ -35,38 +43,48 @@
 
 // equipment equipment
 
-.equipment{
+.equipment {
     text-align: center;
     width: 80%;
     margin: auto;
     margin-top: 80px;
 }
 
-.equipment h2{
+.equipment h2 {
     font-size: 32px;
     font-weight: normal;
+
+    @media (max-width : 512px) {
+        font-size: 20px;
+    }
 }
 
-.equipmentImages{
+.equipmentImages {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 40px;
 
-    figure{
+    figure {
         height: 167px;
         width: 15%;
         margin-bottom: 30px;
 
-        img{
+        @media (max-width : 512px) {
+            width: 80%;
+            margin: auto;
+            margin-top: 20px;
+        }
+
+        img {
             width: 100%;
             height: 100%;
         }
     }
 }
 
-.equipment button{
+.equipment button {
     background-color: #13436b;
     border: none;
     outline: none;
@@ -77,4 +95,8 @@
     font-size: 16px;
     margin-top: 50px;
     cursor: pointer;
+
+    @media (max-width : 512px) {
+        width: 80%;
+    }
 }

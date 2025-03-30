@@ -22,7 +22,7 @@ const About = () => {
 
             if (targetRef) {
                 targetRef.scrollIntoView({ behavior: "smooth", block: "start" });
-                dispatch(setScrollTarget(null)); // Reset after scroll
+                dispatch(setScrollTarget(null)); 
             }
         }
     }, [scrollTarget, dispatch]);
@@ -65,7 +65,7 @@ const About = () => {
                     </div>
 
                     <div className={style.contentActivities}>
-                        <h2>Yerinə yetirdiyimiz işlər</h2>
+                        <h2>Fəaliyyətlərimiz</h2>
                         <ul>
                             {[...Array(6)].map((_, index) => (
                                 <li key={index}>Həcmi 30.000m3-dək olan rezervuarların quraşdırılması və təmiri</li>
