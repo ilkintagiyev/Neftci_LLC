@@ -44,7 +44,10 @@ const Equipments = () => {
                         </figure>
                     ))}
 
-                    <div onClick={() => navigate(EQUIPMENT_PATH)} className={style.equipmentMoreResponsive}>
+                    <div
+                        onClick={() => navigate(EQUIPMENT_PATH)}
+                        className={style.equipmentMoreResponsive}
+                    >
                         Daha çox məlumat al
                     </div>
 

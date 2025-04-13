@@ -234,6 +234,22 @@
     font-size: 17px;
     cursor: pointer;
     text-decoration: underline;
+
+    @media (max-width : 512px) {
+       display: none;
+    }
+}
+
+.projectsResponsiveTitleMore{
+    color: #13436b;
+    font-size: 17px;
+    cursor: pointer;
+    text-decoration: underline;
+    display: none;
+
+    @media (max-width : 512px) {
+       display: block;
+    }
 }
 
 .projectImages {

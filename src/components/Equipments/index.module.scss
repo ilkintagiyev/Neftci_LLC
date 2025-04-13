@@ -16,6 +16,9 @@
     font-size: 17px;
     cursor: pointer;
     text-decoration: underline;
+    @media (max-width : 512px) {
+       display: none;
+    }
 }
 
 .equipMentTitleValue {
