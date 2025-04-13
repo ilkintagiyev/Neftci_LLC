@@ -240,7 +240,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
     margin-top: 40px;
+    max-width: 1200px;
+
 
     @media (max-width : 512px) {
         flex-direction: column;
@@ -248,7 +251,7 @@
 }
 
 .projectImages figure {
-    height: 352px;
+    height: 322px;
     width: 30%;
     margin-bottom: 15px;
 
